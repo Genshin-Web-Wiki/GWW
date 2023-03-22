@@ -14,8 +14,8 @@ const secondJson = ref(null);
 const charArray = ref(null);
 
 onMounted(async () => {
-  const response1 = await fetch("../../public/characters_info.json");
-  const response2 = await fetch("../../public/characters_premium.json");
+  const response1 = await fetch("../../characters_info.json");
+  const response2 = await fetch("../../characters_premium.json");
 
   firstJson.value = await response1.json();
   secondJson.value = await response2.json();
