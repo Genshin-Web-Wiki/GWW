@@ -117,7 +117,11 @@ onMounted(() => {
           <tbody>
             <tr>
               <td class="px-6 py-4">
-{{ teamPremium.premium_team_details }}
+                <ul>
+                  <li v-for="line in teamPremium.premium_team_details">
+                  {{ line }}
+                  </li>
+                </ul>
               </td>
             </tr>
           </tbody>

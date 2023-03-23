@@ -7,7 +7,7 @@
       "Healer": "Jean",
       "Support": "Zhongli"
     },
-    "premium_team_details": "- Albedo is one of the few Sub-DPS that works well with Xiao\n- Zhongli & Albedo together will have Geo Resonance\n- Jean will act as a battery for Xiao and healer for the whole team"
+    "premium_team_details": ["- Albedo is one of the few Sub-DPS that works well with Xiao", "- Zhongli & Albedo together will have Geo Resonance", "- Jean will act as a battery for Xiao and healer for the whole team"]
   },
   {
     "name": "Alhaitham",
