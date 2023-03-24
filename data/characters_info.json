@@ -1,5 +1,6 @@
 [
   {
+    "id": "albedo",
     "name": "Albedo",
     "title": "Kreideprinz",
     "vision": "Geo",
@@ -92,6 +93,7 @@
     "weapon_type": "SWORD"
   },
   {
+    "id": "alhaitham",
     "name": "Alhaitham",
     "title": "Admonishing Instruction",
     "vision": "Dendro",
@@ -102,7 +104,7 @@
     "rarity": 5,
     "constellation": "Vultur Volans",
     "birthday": "0000-02-11",
-    "description": "The current scribe of the Sumeru Akademiya, a man endowed with extraodinary intelligence and talent. He lives free \u2014 free from the searching eyes of ordinary people, anyway.",
+    "description": "The current scribe of the Sumeru Akademiya, a man endowed with extraodinary intelligence and talent. He lives free — free from the searching eyes of ordinary people, anyway.",
     "skillTalents": [
       {
         "name": "Abductive Reasoning",
@@ -167,11 +169,11 @@
           },
           {
             "name": "2-Mirror Projection Attack DMG",
-            "value": "(67.2% ATK + 134.4% Elemental Mastery)\u00d72"
+            "value": "(67.2% ATK + 134.4% Elemental Mastery)×2"
           },
           {
             "name": "3-Mirror Projection Attack DMG",
-            "value": "(67.2% ATK + 134.4% Elemental Mastery)\u00d73"
+            "value": "(67.2% ATK + 134.4% Elemental Mastery)×3"
           },
           {
             "name": "Chisel-Light Mirror Removal Interval",
@@ -282,6 +284,7 @@
     "weapon_type": "SWORD"
   },
   {
+    "id": "aloy",
     "name": "Aloy",
     "title": "Savior From Another World",
     "vision": "Cryo",
@@ -374,6 +377,7 @@
     "weapon_type": "BOW"
   },
   {
+    "id": "amber",
     "name": "Amber",
     "title": "Gliding Champion",
     "vision": "Pyro",
@@ -541,6 +545,7 @@
     "weapon_type": "BOW"
   },
   {
+    "id": "arataki-itto",
     "name": "Arataki Itto",
     "title": "Hanamizaka Heroics",
     "vision": "Geo",
@@ -715,6 +720,7 @@
     "weapon_type": "CLAYMORE"
   },
   {
+    "id": "ayato",
     "name": "Ayato",
     "title": "Pillar of Fortitude",
     "vision": "Hydro",
@@ -901,6 +907,7 @@
     "weapon_type": "SWORD"
   },
   {
+    "id": "barbara",
     "name": "Barbara",
     "title": "Shining Idol",
     "vision": "Hydro",
@@ -1073,6 +1080,7 @@
     ]
   },
   {
+    "id": "beidou",
     "name": "Beidou",
     "title": "Uncrowned Lord of the Ocean",
     "vision": "Electro",
@@ -1255,6 +1263,7 @@
     "weapon_type": "CLAYMORE"
   },
   {
+    "id": "bennett",
     "name": "Bennett",
     "title": "Trial by Fire",
     "vision": "Pyro",
@@ -1433,6 +1442,7 @@
     "weapon_type": "SWORD"
   },
   {
+    "id": "candace",
     "name": "Candace",
     "title": "Golden Vow",
     "vision": "Hydro",
@@ -1611,6 +1621,7 @@
     "weapon_type": "POLEARM"
   },
   {
+    "id": "chongyun",
     "name": "Chongyun",
     "title": "Frozen Ardor",
     "vision": "Cryo",
@@ -1777,6 +1788,7 @@
     "weapon_type": "CLAYMORE"
   },
   {
+    "id": "collei",
     "name": "Collei",
     "title": "",
     "vision": "Dendro",
@@ -1787,7 +1799,7 @@
     "rarity": 4,
     "constellation": "Leptailurus Cervarius",
     "birthday": "0000-05-08",
-    "description": "Oh, you're going to Sumeru? Can you give my regards to Collei? Well... it's been so long, I wonder if her hair has grown out and if she's taller?\n\u00e2\u20ac\u201d Amber",
+    "description": "Oh, you're going to Sumeru? Can you give my regards to Collei? Well... it's been so long, I wonder if her hair has grown out and if she's taller?\nâ€” Amber",
     "skillTalents": [
       {
         "name": "",
@@ -1935,6 +1947,7 @@
     "weapon_type": "BOW"
   },
   {
+    "id": "cyno",
     "name": "Cyno",
     "title": "Judicator of Secrets",
     "vision": "Electro",
@@ -2109,7 +2122,7 @@
       {
         "name": "Austerity: Forbidding Guard",
         "unlock": "Constellation Lv. 4",
-        "description": "When Cyno is in the Pactsworn Pathclearer state triggered by Sacred Rite: Wolf's Swiftness, after he triggers Electro-Charged, Superconduct, Overloaded, Quicken, Aggravate, Hyperbloom, or an Electro Swirl reaction, he will restore 3 Elemental Energy for all nearby party members (except himself).\nThis effect can occur 5 times within one use of Sacred Rite: Wolf\u00e2\u20ac\u2122s Swiftness.",
+        "description": "When Cyno is in the Pactsworn Pathclearer state triggered by Sacred Rite: Wolf's Swiftness, after he triggers Electro-Charged, Superconduct, Overloaded, Quicken, Aggravate, Hyperbloom, or an Electro Swirl reaction, he will restore 3 Elemental Energy for all nearby party members (except himself).\nThis effect can occur 5 times within one use of Sacred Rite: Wolfâ€™s Swiftness.",
         "level": 4
       },
       {
@@ -2130,6 +2143,7 @@
     "weapon_type": "POLEARM"
   },
   {
+    "id": "dehya",
     "name": "Dehya",
     "title": "Flame-Mane",
     "vision": "Pyro",
@@ -2270,7 +2284,7 @@
       {
         "name": "The Sunlit Way",
         "unlock": "Unlocked Automatically",
-        "description": "Increases the Movement SPD of your own party members by 10% during the day (6:00 \u2013 18:00).\nDoes not take effect in Domains, Trounce Domains, or Spiral Abyss. Not stackable with Passive Talents that provide the exact same effects."
+        "description": "Increases the Movement SPD of your own party members by 10% during the day (6:00 – 18:00).\nDoes not take effect in Domains, Trounce Domains, or Spiral Abyss. Not stackable with Passive Talents that provide the exact same effects."
       }
     ],
     "constellations": [
@@ -2315,6 +2329,7 @@
     "weapon_type": "CLAYMORE"
   },
   {
+    "id": "diluc",
     "name": "Diluc",
     "title": "The Dark Side of Dawn",
     "vision": "Pyro",
@@ -2493,8 +2508,9 @@
     "weapon_type": "CLAYMORE"
   },
   {
+    "id": "diona",
     "name": "Diona",
-    "title": "K\u00c3\u00a4tzlein Cocktail",
+    "title": "KÃ¤tzlein Cocktail",
     "vision": "Cryo",
     "weapon": "Bow",
     "gender": "Female",
@@ -2671,6 +2687,7 @@
     "weapon_type": "BOW"
   },
   {
+    "id": "dori",
     "name": "Dori",
     "title": "Treasure of Dream Garden",
     "vision": "Electro",
@@ -2750,7 +2767,7 @@
       {
         "name": "Alcazarzaray's Exactitude",
         "unlock": "Elemental Burst",
-        "description": "Summons forth the Jinni within the lamp to give the client various kinds of aid.\n\nJinni\nConnects to a nearby character. The connected character will:\n\u2022 Continuously restore HP based on Dori's Max HP.\n\u2022 Continuously regenerate Energy.\n\u2022 Be affected by Electro.\nWhen connector between the Jinni and the character touches opponents, it will deal one instance of Electro DMG to them every 0.4%.\nOnly one Jinni can exist at one time.\n\n\"Hmm? You'll pick this lamp, will you? Oh my, you've got good taste! Unfortunately, there's no price on this treasure - comparable, I'd say, to how you will not sell that mascot by your side for any price in the world.\"",
+        "description": "Summons forth the Jinni within the lamp to give the client various kinds of aid.\n\nJinni\nConnects to a nearby character. The connected character will:\n• Continuously restore HP based on Dori's Max HP.\n• Continuously regenerate Energy.\n• Be affected by Electro.\nWhen connector between the Jinni and the character touches opponents, it will deal one instance of Electro DMG to them every 0.4%.\nOnly one Jinni can exist at one time.\n\n\"Hmm? You'll pick this lamp, will you? Oh my, you've got good taste! Unfortunately, there's no price on this treasure - comparable, I'd say, to how you will not sell that mascot by your side for any price in the world.\"",
         "upgrades": [
           {
             "name": "Connector DMG",
@@ -2821,7 +2838,7 @@
       {
         "name": "Discretionary Supplement",
         "unlock": "Constellation Lv. 4",
-        "description": "The character connected to the Jinni will obtain the following buffs based on their current HP and Energy:\n\u2022 When their HP is lower than 50%, they gain 50% incoming Healing Bonus.\n\u2022 When their Energy is less than 50%, they gain 30% Energy Recharge.",
+        "description": "The character connected to the Jinni will obtain the following buffs based on their current HP and Energy:\n• When their HP is lower than 50%, they gain 50% incoming Healing Bonus.\n• When their Energy is less than 50%, they gain 30% Energy Recharge.",
         "level": 4
       },
       {
@@ -2833,7 +2850,7 @@
       {
         "name": "Sparkling Weight",
         "unlock": "Constellation Lv. 6",
-        "description": "Dori gains the following effects for 3s after using Spirit-Warding Lamp: Troubleshooter Cannon:\n\u2022 Electro Infusion\n\u2022 When Normal Attacks hit opponents, all nearby party members will heal HP equivalent to 4% of Dori's Max HP. This type of healing can occur once every 0.1s.",
+        "description": "Dori gains the following effects for 3s after using Spirit-Warding Lamp: Troubleshooter Cannon:\n• Electro Infusion\n• When Normal Attacks hit opponents, all nearby party members will heal HP equivalent to 4% of Dori's Max HP. This type of healing can occur once every 0.1s.",
         "level": 6
       }
     ],
@@ -2841,6 +2858,7 @@
     "weapon_type": "CLAYMORE"
   },
   {
+    "id": "eula",
     "name": "Eula",
     "title": "Dance of the Shimmering Wave",
     "vision": "Cryo",
@@ -3047,6 +3065,7 @@
     "weapon_type": "CLAYMORE"
   },
   {
+    "id": "faruzan",
     "name": "Faruzan",
     "title": "Enigmatic Machinist",
     "vision": "Anemo",
@@ -3225,6 +3244,7 @@
     "weapon_type": "BOW"
   },
   {
+    "id": "fischl",
     "name": "Fischl",
     "title": "Prinzessin der Verurteilung!",
     "vision": "Electro",
@@ -3387,6 +3407,7 @@
     "weapon_type": "BOW"
   },
   {
+    "id": "ganyu",
     "name": "Ganyu",
     "title": "Plenilune Gaze",
     "vision": "Cryo",
@@ -3569,6 +3590,7 @@
     "weapon_type": "BOW"
   },
   {
+    "id": "gorou",
     "name": "Gorou",
     "title": "Canine Warrior",
     "vision": "Geo",
@@ -3661,6 +3683,7 @@
     "weapon_type": "BOW"
   },
   {
+    "id": "hu-tao",
     "name": "Hu Tao",
     "title": "Fragrance in Thaw",
     "vision": "Pyro",
@@ -3753,6 +3776,7 @@
     "weapon_type": "POLEARM"
   },
   {
+    "id": "jean",
     "name": "Jean",
     "title": "Dandelion Knight",
     "vision": "Anemo",
@@ -3937,6 +3961,7 @@
     ]
   },
   {
+    "id": "kaedehara-kazuha",
     "name": "Kaedehara Kazuha",
     "title": "Scarlet Leaves Pursue Wild Waves",
     "vision": "Anemo",
@@ -4020,7 +4045,7 @@
       {
         "name": "Kazuha Slash",
         "unlock": "Elemental Burst",
-        "description": "The signature technique of Kazuha's self-styled bladework \u00e2\u20ac\u201d a single slash that strikes with the force of the first winds of autumn, dealing AoE Anemo DMG. The blade's passage will leave behind a field named \"Autumn Whirlwind\" that periodically deals AoE Anemo DMG to opponents within its range.\nElemental Absorption: If Autumn Whirlwind comes into contact with Hydro/Pyro/Cryo/Electro, it will deal additional elemental DMG of that type. Elemental Absorption may only occur once per use.",
+        "description": "The signature technique of Kazuha's self-styled bladework â€” a single slash that strikes with the force of the first winds of autumn, dealing AoE Anemo DMG. The blade's passage will leave behind a field named \"Autumn Whirlwind\" that periodically deals AoE Anemo DMG to opponents within its range.\nElemental Absorption: If Autumn Whirlwind comes into contact with Hydro/Pyro/Cryo/Electro, it will deal additional elemental DMG of that type. Elemental Absorption may only occur once per use.",
         "upgrades": [
           {
             "name": "Slashing DMG",
@@ -4111,6 +4136,7 @@
     "weapon_type": "SWORD"
   },
   {
+    "id": "kaeya",
     "name": "Kaeya",
     "title": "Frostwind Swordsman",
     "vision": "Cryo",
@@ -4269,6 +4295,7 @@
     "weapon_type": "SWORD"
   },
   {
+    "id": "kamisato-ayaka",
     "name": "Kamisato Ayaka",
     "title": "Frostflake Heron",
     "vision": "Cryo",
@@ -4450,6 +4477,7 @@
     "weapon_type": "SWORD"
   },
   {
+    "id": "keqing",
     "name": "Keqing",
     "title": "Driving Thunder",
     "vision": "Electro",
@@ -4630,6 +4658,7 @@
     ]
   },
   {
+    "id": "klee",
     "name": "Klee",
     "title": "Fleeing Sunlight",
     "vision": "Pyro",
@@ -4788,6 +4817,7 @@
     "weapon_type": "CATALYST"
   },
   {
+    "id": "kujou-sara",
     "name": "Kujou Sara",
     "title": "Crowfeather Kaburaya",
     "vision": "Electro",
@@ -4880,6 +4910,7 @@
     "weapon_type": "BOW"
   },
   {
+    "id": "kuki-shinobu",
     "name": "Kuki Shinobu",
     "title": "Mender of Tribulations",
     "vision": "Electro",
@@ -5003,7 +5034,7 @@
       {
         "name": "Heart's Repose",
         "unlock": "Unlocked at Ascension 4",
-        "description": "Sanctifying Ring's abilities will be boosted based on Shinobu's Elemental Mastery:\n\u00b7Healing amount will be increased by 75% of Elemental Mastery.\n\u00b7DMG dealt is increased by 25% of Elemental Mastery.",
+        "description": "Sanctifying Ring's abilities will be boosted based on Shinobu's Elemental Mastery:\n·Healing amount will be increased by 75% of Elemental Mastery.\n·DMG dealt is increased by 25% of Elemental Mastery.",
         "level": 4
       },
       {
@@ -5054,6 +5085,7 @@
     "weapon_type": "SWORD"
   },
   {
+    "id": "layla",
     "name": "Layla",
     "title": "Fantastical Evening Star",
     "vision": "Cryo",
@@ -5216,6 +5248,7 @@
     "weapon_type": "SWORD"
   },
   {
+    "id": "lisa",
     "name": "Lisa",
     "title": "Witch of Purple Rose",
     "vision": "Electro",
@@ -5389,6 +5422,7 @@
     "weapon_type": "CATALYST"
   },
   {
+    "id": "mona",
     "name": "Mona",
     "title": "Astral Reflection",
     "vision": "Hydro",
@@ -5570,6 +5604,7 @@
     "weapon_type": "CATALYST"
   },
   {
+    "id": "nahida",
     "name": "Nahida",
     "title": "Physic of Purity",
     "vision": "Dendro",
@@ -5739,6 +5774,7 @@
     "weapon_type": "CATALYST"
   },
   {
+    "id": "nilou",
     "name": "Nilou",
     "title": "Dance of Lotuslight",
     "vision": "Hydro",
@@ -5912,6 +5948,7 @@
     "weapon_type": "SWORD"
   },
   {
+    "id": "ningguang",
     "name": "Ningguang",
     "title": "Eclipsing Star",
     "vision": "Geo",
@@ -6068,6 +6105,7 @@
     ]
   },
   {
+    "id": "noelle",
     "name": "Noelle",
     "title": "Chivalric Blossom",
     "vision": "Geo",
@@ -6254,6 +6292,7 @@
     "weapon_type": "CLAYMORE"
   },
   {
+    "id": "qiqi",
     "name": "Qiqi",
     "title": "Icy Resurrection",
     "vision": "Cryo",
@@ -6432,6 +6471,7 @@
     "weapon_type": "SWORD"
   },
   {
+    "id": "raiden-shogun",
     "name": "Raiden Shogun",
     "title": "Plane of Euthymia",
     "vision": "Electro",
@@ -6524,6 +6564,7 @@
     "weapon_type": "POLEARM"
   },
   {
+    "id": "razor",
     "name": "Razor",
     "title": "Wolf Boy",
     "vision": "Electro",
@@ -6718,6 +6759,7 @@
     "weapon_type": "CLAYMORE"
   },
   {
+    "id": "rosaria",
     "name": "Rosaria",
     "title": "Thorny Benevolence",
     "vision": "Cryo",
@@ -6880,6 +6922,7 @@
     "weapon_type": "POLEARM"
   },
   {
+    "id": "sangonomiya-kokomi",
     "name": "Sangonomiya Kokomi",
     "title": "Pearl of Wisdom",
     "vision": "Hydro",
@@ -6977,6 +7020,7 @@
     "weapon_type": "CATALYST"
   },
   {
+    "id": "sayu",
     "name": "Sayu",
     "title": "Mujina Ninja",
     "vision": "Anemo",
@@ -7069,6 +7113,7 @@
     "weapon_type": "CLAYMORE"
   },
   {
+    "id": "shenhe",
     "name": "Shenhe",
     "title": "Lonesome Transcendence",
     "vision": "Cryo",
@@ -7161,6 +7206,7 @@
     "weapon_type": "POLEARM"
   },
   {
+    "id": "shikanoin-heizou",
     "name": "Shikanoin Heizou",
     "title": "Analytical Harmony",
     "vision": "Anemo",
@@ -7331,6 +7377,7 @@
     "weapon_type": "CATALYST"
   },
   {
+    "id": "sucrose",
     "name": "Sucrose",
     "title": "Harmless Sweetie",
     "vision": "Anemo",
@@ -7489,6 +7536,7 @@
     "weapon_type": "CATALYST"
   },
   {
+    "id": "tartaglia",
     "name": "Tartaglia",
     "title": "Childe",
     "vision": "Hydro",
@@ -7715,6 +7763,7 @@
     "weapon_type": "BOW"
   },
   {
+    "id": "thoma",
     "name": "Thoma",
     "title": "Protector From Afar",
     "vision": "Pyro",
@@ -7742,7 +7791,7 @@
           },
           {
             "name": "3-Hit DMG",
-            "value": "26.8%\u00c3\u20142"
+            "value": "26.8%Ã—2"
           },
           {
             "name": "4-Hit DMG",
@@ -7889,6 +7938,7 @@
     "weapon_type": "POLEARM"
   },
   {
+    "id": "tighnari",
     "name": "Tighnari",
     "title": "Verdant Strider",
     "vision": "Dendro",
@@ -7899,7 +7949,7 @@
     "rarity": 5,
     "constellation": "Leptailurus Cervarius",
     "birthday": "0000-12-29",
-    "description": "\"A message for you. I brought back a specialty from the desert, two packs of honeyed dates, which helps to replenish your energy, whether in the morning or at night. Thank you for your patience in teaching and taking care of Collei. Good luck with your work and best wishes for Collei's studies.\"\n\u2014An anonymously written message left inside a candy box, placed on the watcher's table.",
+    "description": "\"A message for you. I brought back a specialty from the desert, two packs of honeyed dates, which helps to replenish your energy, whether in the morning or at night. Thank you for your patience in teaching and taking care of Collei. Good luck with your work and best wishes for Collei's studies.\"\n—An anonymously written message left inside a candy box, placed on the watcher's table.",
     "skillTalents": [
       {
         "name": "Khanda Barrier-Buster",
@@ -7916,7 +7966,7 @@
           },
           {
             "name": "3-Hit DMG",
-            "value": "26.4%\u00d72"
+            "value": "26.4%×2"
           },
           {
             "name": "4-Hit DMG",
@@ -8059,6 +8109,7 @@
     "weapon_type": "BOW"
   },
   {
+    "id": "traveler",
     "name": "Traveler",
     "vision": "Anemo",
     "weapon": "Sword",
@@ -8226,6 +8277,7 @@
     "weapon_type": "SWORD"
   },
   {
+    "id": "traveler",
     "name": "Traveler",
     "vision": "Dendro",
     "weapon": "Sword",
@@ -8381,6 +8433,7 @@
     "weapon_type": "SWORD"
   },
   {
+    "id": "traveler",
     "name": "Traveler",
     "vision": "Geo",
     "weapon": "Sword",
@@ -8536,6 +8589,7 @@
     "weapon_type": "SWORD"
   },
   {
+    "id": "traveler",
     "name": "Traveler",
     "vision": "Electro",
     "weapon": "Sword",
@@ -8711,6 +8765,7 @@
     "weapon_type": "SWORD"
   },
   {
+    "id": "venti",
     "name": "Venti",
     "title": "Windborne Bard",
     "vision": "Anemo",
@@ -8885,6 +8940,7 @@
     "weapon_type": "BOW"
   },
   {
+    "id": "wanderer",
     "name": "Wanderer",
     "title": "Eons Adrift",
     "vision": "Anemo",
@@ -9042,6 +9098,7 @@
     "weapon_type": "CATALYST"
   },
   {
+    "id": "xiangling",
     "name": "Xiangling",
     "title": "Exquisite Delicacy",
     "vision": "Pyro",
@@ -9212,6 +9269,7 @@
     "weapon_type": "POLEARM"
   },
   {
+    "id": "xiao",
     "name": "Xiao",
     "title": "Vigilant Yaksha",
     "vision": "Anemo",
@@ -9370,6 +9428,7 @@
     "weapon_type": "POLEARM"
   },
   {
+    "id": "xingqiu",
     "name": "Xingqiu",
     "title": "Juvenile Galant",
     "vision": "Hydro",
@@ -9536,6 +9595,7 @@
     "weapon_type": "SWORD"
   },
   {
+    "id": "xinyan",
     "name": "Xinyan",
     "title": "Blazing Riff",
     "vision": "Pyro",
@@ -9628,6 +9688,7 @@
     "weapon_type": "CLAYMORE"
   },
   {
+    "id": "yae-miko",
     "name": "Yae Miko",
     "title": "Astute Amusement",
     "vision": "Electro",
@@ -9794,6 +9855,7 @@
     "weapon_type": "CATALYST"
   },
   {
+    "id": "yanfei",
     "name": "Yanfei",
     "title": "Wise Innocence",
     "vision": "Pyro",
@@ -9948,6 +10010,7 @@
     "weapon_type": "CATALYST"
   },
   {
+    "id": "yaoyao",
     "name": "Yaoyao",
     "title": "Burgeoning Grace",
     "vision": "Dendro",
@@ -9958,7 +10021,7 @@
     "rarity": 4,
     "constellation": "Osmanthus",
     "birthday": "0000-03-06",
-    "description": "Streetward Rambler's youngest disciple. A gentle and caring \u201clittle adult.\u201d",
+    "description": "Streetward Rambler's youngest disciple. A gentle and caring “little adult.”",
     "skillTalents": [
       {
         "name": "Toss 'N' Turn Spear",
@@ -10003,7 +10066,7 @@
       {
         "name": "Raphanus Sky Cluster",
         "unlock": "Elemental Skill",
-        "description": "Calls upon \u201cYuegui: Throwing Mode,\u201d a special device created by a certain adeptus to help Yaoyao solve her problems.\nThis skill will be used differently in Holding Mode.\nHold\nEnters Aiming Mode to adjust the throw direction.\nYuegui: Throwing Mode\nThrows out White Jade Radishes that will explode upon hitting characters or opponents, dealing Dendro DMG to opponents within a certain AoE, and healing characters within that same AoE based on Yaoyao\u2019s Max HP. If a radish does not hit either an opponent or a character, the radish will remain where it is and explode on contact with a character or opponent, or will explode after its duration expires.\nYuegui: Throwing Mode will choose its radish-throw targets.\n\u00b7If all nearby characters have more than 70% HP remaining, then it will throw the radish at a nearby opponent.\n\u00b7If nearby characters have 70% or less HP remaining, it will throw a radish at the character with the lowest HP percentage remaining. If no opponents exist nearby, Yuegui will also throw White Jade Radishes at characters if they all have more than 70% HP and less than 100% HP remaining. Otherwise, it will throw radishes into the area at random.\nA maximum of 2 instances of Yuegui: Throwing Mode can exist at any one time.",
+        "description": "Calls upon “Yuegui: Throwing Mode,” a special device created by a certain adeptus to help Yaoyao solve her problems.\nThis skill will be used differently in Holding Mode.\nHold\nEnters Aiming Mode to adjust the throw direction.\nYuegui: Throwing Mode\nThrows out White Jade Radishes that will explode upon hitting characters or opponents, dealing Dendro DMG to opponents within a certain AoE, and healing characters within that same AoE based on Yaoyao’s Max HP. If a radish does not hit either an opponent or a character, the radish will remain where it is and explode on contact with a character or opponent, or will explode after its duration expires.\nYuegui: Throwing Mode will choose its radish-throw targets.\n·If all nearby characters have more than 70% HP remaining, then it will throw the radish at a nearby opponent.\n·If nearby characters have 70% or less HP remaining, it will throw a radish at the character with the lowest HP percentage remaining. If no opponents exist nearby, Yuegui will also throw White Jade Radishes at characters if they all have more than 70% HP and less than 100% HP remaining. Otherwise, it will throw radishes into the area at random.\nA maximum of 2 instances of Yuegui: Throwing Mode can exist at any one time.",
         "upgrades": [
           {
             "name": "Skill DMG",
@@ -10031,7 +10094,7 @@
       {
         "name": "Moonjade Descent",
         "unlock": "Elemental Burst",
-        "description": "At the enjoinment of a certain adeptus, Yuegui\u2019s full potential can be unleashed in an emergency, dealing Dendro DMG to nearby opponents and entering an (in some sense) unsurpassed Adeptal Legacy state.\nAdeptal Legacy\n\u00b7White Jade Radishes generated will be changed to heal and deal DMG according to this skill. Explosions will heal all nearby party members, and the Dendro DMG that they deal will be viewed as Elemental Burst DMG instead.\n\u00b7Summons \u201cYuegui: Jumping Mode\u201d at intervals until their limit has been reached. The behavior of this version of Yuegui is the same as that of \u201cYuegui: Throwing Mode\u201d in the Elemental Skill, Raphanus Sky Cluster. A maximum of 3 Yuegui: Jumping Mode can exist at any one time.\n\u00b7Yaoyao's Movement SPD is increased by 15%.\n\u00b7Yaoyao\u2019s Dendro RES will be increased.\nThe Adeptal Legacy state will end once Yaoyao is off-field, and all remaining Yuegui: Jumping Mode will be cleared once this state ends.",
+        "description": "At the enjoinment of a certain adeptus, Yuegui’s full potential can be unleashed in an emergency, dealing Dendro DMG to nearby opponents and entering an (in some sense) unsurpassed Adeptal Legacy state.\nAdeptal Legacy\n·White Jade Radishes generated will be changed to heal and deal DMG according to this skill. Explosions will heal all nearby party members, and the Dendro DMG that they deal will be viewed as Elemental Burst DMG instead.\n·Summons “Yuegui: Jumping Mode” at intervals until their limit has been reached. The behavior of this version of Yuegui is the same as that of “Yuegui: Throwing Mode” in the Elemental Skill, Raphanus Sky Cluster. A maximum of 3 Yuegui: Jumping Mode can exist at any one time.\n·Yaoyao's Movement SPD is increased by 15%.\n·Yaoyao’s Dendro RES will be increased.\nThe Adeptal Legacy state will end once Yaoyao is off-field, and all remaining Yuegui: Jumping Mode will be cleared once this state ends.",
         "upgrades": [
           {
             "name": "Skill DMG",
@@ -10081,7 +10144,7 @@
       {
         "name": "In Others' Shoes",
         "unlock": "Unlocked Automatically",
-        "description": "When White Jade Radishes explode, active characters within their AoE will regain HP every 1s based on 0.8% of Yaoyao\u2019s Max HP. This effect lasts 5s."
+        "description": "When White Jade Radishes explode, active characters within their AoE will regain HP every 1s based on 0.8% of Yaoyao’s Max HP. This effect lasts 5s."
       }
     ],
     "constellations": [
@@ -10118,7 +10181,7 @@
       {
         "name": "Beneficent",
         "unlock": "Constellation Lv. 6",
-        "description": "For every 2 White Jade Radishes Yuegui: Throwing Mode throws out, the next throw will also release a Mega Radish that will have a larger AoE than the standard White Jade Radish and have the following effects upon exploding:\n\u00b7Deals AoE Dendro DMG based on 75% of Yaoyao\u2019s ATK.\n\u00b7Restores HP for the active character based on 7.5% of Yaoyao\u2019s Max HP.\nEvery Yuegui: Throwing Mode can throw out a maximum of 2 Mega Radishes.",
+        "description": "For every 2 White Jade Radishes Yuegui: Throwing Mode throws out, the next throw will also release a Mega Radish that will have a larger AoE than the standard White Jade Radish and have the following effects upon exploding:\n·Deals AoE Dendro DMG based on 75% of Yaoyao’s ATK.\n·Restores HP for the active character based on 7.5% of Yaoyao’s Max HP.\nEvery Yuegui: Throwing Mode can throw out a maximum of 2 Mega Radishes.",
         "level": 6
       }
     ],
@@ -10126,6 +10189,7 @@
     "weapon_type": "POLEARM"
   },
   {
+    "id": "yelan",
     "name": "Yelan",
     "title": "Valley Orchid",
     "vision": "Hydro",
@@ -10292,6 +10356,7 @@
     "weapon_type": "BOW"
   },
   {
+    "id": "yoimiya",
     "name": "Yoimiya",
     "title": "Frolicking Flames",
     "vision": "Pyro",
@@ -10458,6 +10523,7 @@
     "weapon_type": "BOW"
   },
   {
+    "id": "yun-jin",
     "name": "Yun Jin",
     "title": "Stage Lucida",
     "vision": "Geo",
@@ -10598,7 +10664,7 @@
         "level": 1
       },
       {
-        "name": "Myriad Mise-En-Sc\u00c3\u00a8ne",
+        "name": "Myriad Mise-En-ScÃ¨ne",
         "unlock": "Constellation Lv. 2",
         "description": "After Cliffbreaker's Banner is unleashed, all nearby party members' Normal Attack DMG is increased by 15% for 12s.",
         "level": 2
@@ -10632,6 +10698,7 @@
     "weapon_type": "POLEARM"
   },
   {
+    "id": "zhongli",
     "name": "Zhongli",
     "title": "Vago Mundo",
     "vision": "Geo",
