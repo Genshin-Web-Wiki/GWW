@@ -10792,22 +10792,22 @@
   },
   {
     "id": "mika",
-    "name": "",
+    "name": "Mika",
     "title": "",
-    "vision": "",
-    "weapon": "",
-    "gender": "",
-    "nation": "",
-    "affiliation": "",
-    "rarity": 5,
-    "constellation": "",
-    "birthday": "",
-    "description": "",
+    "vision": "Cryo",
+    "weapon": "Polearm",
+    "gender": "Male",
+    "nation": "Mondstadt",
+    "affiliation": "Knights of Favonius",
+    "rarity": 4,
+    "constellation": "Palumbus",
+    "birthday": "0000-08-11",
+    "description": "Member of the Knights of Favonius Reconnaissance Company, always diligently fulfills all the duties that come his way.",
     "skillTalents": [
       {
-        "name": "Rain of Stone",
+        "name": "Spear of Favonius – Arrow’s Passage",
         "unlock": "Normal Attack",
-        "description": "Normal Attack\nPerforms up to 6 consecutive spear strikes.\nCharged Attack\nConsumes a certain amount of Stamina to lunge forward, dealing damage to enemies along the way.\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging enemies along the path and dealing AoE DMG upon impact.",
+        "description": "Normal Attack\nPerforms up to 5 consecutive strikes using his crossbow and spear.\nCharged Attack\nConsumes a certain amount of Stamina to lunge forward, dealing damage to opponents along the way.\nPlunging Attack\nPlunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact.",
         "type": "NORMAL_ATTACK"
       },
       {
@@ -10880,7 +10880,7 @@
         "level": 6
       }
     ],
-    "vision_key": "GEO",
+    "vision_key": "CRYO",
     "weapon_type": "POLEARM"
   }
 ]
