@@ -4,11 +4,13 @@ import Characters from "../../public/characters_info.json";
 import Premium from "../../public/characters_premium.json";
 import { useRoute } from "vue-router";
 import NavBar from "../components/navbar.vue";
+import { watchEffect } from "vue";
 
 const characterInfo = ref(null);
 const teamPremium = ref(null);
 const route = useRoute();
 const boolean = ref(false);
+
 onMounted(() => {
   const characterId = route.params.name;
 
@@ -101,9 +103,21 @@ onMounted(() => {
             <tr class="bg-white border-b hover:bg-gray-50">
               <td
                 class="px-6 py-4"
-                v-for="teammate in teamPremium.premium_team"
+                v-for="(teammate, index) in teamPremium.premium_team"
+                :key="index"
               >
-                {{ teammate }}
+                <router-link
+                  :to="'/' + teamPremium.premium_team_ids[index]"
+                  :key="teamPremium.premium_team_ids[index]"
+                  class="flex flex-col justify-center items-center"
+                >
+                  <img
+                    class="h-auto max-w-full rounded-lg w-28"
+                    :src="`../../public/images/${teamPremium.premium_team_ids[index]}/icon.png`"
+                    alt=""
+                  />
+                  <p class="text-center">{{ teammate }}</p>
+                </router-link>
               </td>
             </tr>
           </tbody>
