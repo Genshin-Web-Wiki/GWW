@@ -1,27 +1,41 @@
 <script setup>
-import { ref, onMounted } from "vue";
+import { ref, onMounted, watchEffect } from "vue";
 import Characters from "../../public/characters_info.json";
 import Premium from "../../public/characters_premium.json";
 import { useRoute } from "vue-router";
 import NavBar from "../components/navbar.vue";
-import { watchEffect } from "vue";
 
 const characterInfo = ref(null);
 const teamPremium = ref(null);
 const route = useRoute();
 const boolean = ref(false);
+const characterId = ref(null);
 
-onMounted(() => {
-  const characterId = route.params.name;
+const getInfo = () => {
+  characterId.value = route.params.name;
 
   characterInfo.value = Characters.find(
-    (character) => character.id === characterId
+    (character) => character.id === characterId.value
   );
 
-  teamPremium.value = Premium.find((character) => character.id === characterId);
+  teamPremium.value = Premium.find(
+    (character) => character.id === characterId.value
+  );
 
   console.log(teamPremium.value);
   boolean.value = true;
+};
+
+onMounted(() => {
+  getInfo();
+});
+
+watchEffect(() => {
+  if (boolean.value === true) {
+    if (route.params.name !== characterId.value) {
+      getInfo();
+    }
+  }
 });
 </script>
 
