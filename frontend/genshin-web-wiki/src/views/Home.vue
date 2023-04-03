@@ -12,13 +12,14 @@ import NavBar from "../components/navbar.vue";
 
 const searchName = ref(null);
 const charArray = ref(null);
+const selected = ref("a-z");
 charArray.value = Characters;
 
 const raritySearch = (n) => {
   return Characters.filter((character) => character.rarity === n);
 };
 const searchByName = (name) => {
-  return Characters.filter((character) =>
+  return charArray.value.filter((character) =>
     character.name.toLowerCase().startsWith(name.toLowerCase())
   );
 };
@@ -26,6 +27,32 @@ const searchByName = (name) => {
 const searchFunction = () => {
   charArray.value = searchByName(searchName.value);
 };
+
+watchEffect(() => {
+  if (searchName.value === "") {
+    charArray.value = Characters;
+    selected.value = "a-z";
+  }
+});
+
+watchEffect(() => {
+  if (selected.value === "fiveStars") {
+    charArray.value = raritySearch(5).sort((a, b) =>
+      a.name.localeCompare(b.name)
+    );
+  }
+  if (selected.value === "fourStars") {
+    charArray.value = raritySearch(4).sort((a, b) =>
+      a.name.localeCompare(b.name)
+    );
+  }
+  if (selected.value === "a-z") {
+    charArray.value = Characters.sort((a, b) => a.name.localeCompare(b.name));
+  }
+  if (selected.value === "z-a") {
+    charArray.value = Characters.reverse();
+  }
+});
 </script>
 
 <template>
@@ -66,6 +93,23 @@ const searchFunction = () => {
         required
       />
     </div>
+  </div>
+  <div class="px-4 flex flex-col items-center justify-center">
+    <label
+      for="countries"
+      class="block mb-2 text-sm font-medium text-gray-900 w-96"
+      >Select an option</label
+    >
+    <select
+      v-model="selected"
+      id="selector"
+      class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-96 p-2.5"
+    >
+      <option value="a-z">From A-Z</option>
+      <option value="z-a">From Z-A</option>
+      <option value="fiveStars">Five stars rarity</option>
+      <option value="fourStars">Four stars rarity</option>
+    </select>
   </div>
   <div class="grid grid-cols-2 md:grid-cols-3 gap-4 px-4 py-8">
     <div v-for="character in charArray" :key="character.id">
